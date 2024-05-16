@@ -144,29 +144,29 @@ import arrowBottomImg from "../../../assets/images/arrow-bottom.svg";
 import moreImage from "../../../assets/images/more.svg";
 import homeBlackImg from "../../../assets/images/homeBlack.svg";
 import profileBrownImg from "../../../assets/images/profile_brown.svg";
-import cycleImg from "../../../assets/images/cycle.svg"
-import cycleImgBlack from "../../../assets/images/cycleBlack.svg"
-import familyImg from "../../../assets/images/family.svg"
-import proImg from "../../../assets/images/pro.svg"
-import shieldImg from "../../../assets/images/sheild.svg"
-import archirondelImg from "../../../assets/images/Archirondel.svg"
-import goreyImg from "../../../assets/images/Gorey.svg"
-import hongueImg from "../../../assets/images/La Hougue Bie.svg"
-import pulenteImg from "../../../assets/images/La Pulente.svg"
-import aubinImg from "../../../assets/images/St Aubin.svg"
-import trinityImg from "../../../assets/images/Trinity.svg"
-import walkMaskImg from "../../../assets/images/walkMask.svg"
-import viewDirectionMapImg from "../../../assets/images/viewDirectionMap.svg"
+import cycleImg from "../../../assets/images/cycle.svg";
+import cycleImgBlack from "../../../assets/images/cycleBlack.svg";
+import familyImg from "../../../assets/images/family.svg";
+import proImg from "../../../assets/images/pro.svg";
+import shieldImg from "../../../assets/images/sheild.svg";
+import archirondelImg from "../../../assets/images/Archirondel.svg";
+import goreyImg from "../../../assets/images/Gorey.svg";
+import hongueImg from "../../../assets/images/La Hougue Bie.svg";
+import pulenteImg from "../../../assets/images/La Pulente.svg";
+import aubinImg from "../../../assets/images/St Aubin.svg";
+import trinityImg from "../../../assets/images/Trinity.svg";
+import walkMaskImg from "../../../assets/images/walkMask.svg";
+import viewDirectionMapImg from "../../../assets/images/viewDirectionMap.svg";
 import CalendarPng from "../../../assets/images/calendarImg.png";
-import gardernCenterImage from "../../../assets/images/shoppingListIcon/garden_center.png"
-import furnitureImage from "../../../assets/images/shoppingListIcon/Furniture.png"
-import homewareImage from "../../../assets/images/shoppingListIcon/homeware.png"
-import localShopsImage from "../../../assets/images/shoppingListIcon/localShops.png"
-import mensClothingImage from "../../../assets/images/shoppingListIcon/mensClothing.png"
-import woomenClothingImage from "../../../assets/images/shoppingListIcon/woomenClothing.png"
-import greenGlocersImage from "../../../assets/images/shoppingListIcon/greenGlocers.png"
-import sunglassesSesImage from "../../../assets/images/shoppingListIcon/sunglassesSes.png"
-import giftIdeasImage from "../../../assets/images/shoppingListIcon/giftIdeas.png"
+import gardernCenterImage from "../../../assets/images/shoppingListIcon/garden_center.png";
+import furnitureImage from "../../../assets/images/shoppingListIcon/furniture.png";
+import homewareImage from "../../../assets/images/shoppingListIcon/homeware.png";
+import localShopsImage from "../../../assets/images/shoppingListIcon/localShops.png";
+import mensClothingImage from "../../../assets/images/shoppingListIcon/mensClothing.png";
+import woomenClothingImage from "../../../assets/images/shoppingListIcon/woomenClothing.png";
+import greenGlocersImage from "../../../assets/images/shoppingListIcon/greenGlocers.png";
+import sunglassesSesImage from "../../../assets/images/shoppingListIcon/sunglassesSes.png";
+import giftIdeasImage from "../../../assets/images/shoppingListIcon/giftIdeas.png";
 
 export const NewLogoRoc = NewLogoRocImg;
 export const ROCLogoWhite = ROCLogoWhiteImg;
@@ -314,9 +314,9 @@ export const linkedIn = linkedInIcon;
 export const Twitter = twitterIcon;
 export const homeBlack = homeBlackImg;
 export const profileBrown = profileBrownImg;
-export const cycle = cycleImg
-export const cycleBlack = cycleImgBlack
-export const family = familyImg
+export const cycle = cycleImg;
+export const cycleBlack = cycleImgBlack;
+export const family = familyImg;
 export const pro = proImg;
 export const shield = shieldImg;
 export const archirondel = archirondelImg;
@@ -328,15 +328,15 @@ export const trinity = trinityImg;
 export const walkMask = walkMaskImg;
 export const viewDirectionMap = viewDirectionMapImg;
 export const calendarImg = CalendarPng;
-export const gardernCenter =  gardernCenterImage
-export const furniture =  furnitureImage
-export const homeware =  homewareImage
-export const localShops =  localShopsImage
-export const mensClothing =  mensClothingImage
-export const woomenClothing =  woomenClothingImage
-export const greenGlocers =  greenGlocersImage
-export const sunglassesSes =  sunglassesSesImage
-export const giftIdeas =  giftIdeasImage
+export const gardernCenter = gardernCenterImage;
+export const furniture = furnitureImage;
+export const homeware = homewareImage;
+export const localShops = localShopsImage;
+export const mensClothing = mensClothingImage;
+export const woomenClothing = woomenClothingImage;
+export const greenGlocers = greenGlocersImage;
+export const sunglassesSes = sunglassesSesImage;
+export const giftIdeas = giftIdeasImage;
 
 // import archirondelImg from "../../../assets/images/Archirondel.svg"
 // import goreyImg from "../../../assets/images/Gorey.svg"
@@ -344,7 +344,6 @@ export const giftIdeas =  giftIdeasImage
 // import pulenteImg from "../../../assets/images/La Pulente.svg"
 // import aubinImg from "../../../assets/images/St Aubin.svg"
 // import trinityImg from "../../../assets/images/Trinity.svg"
-
 
 interface HamburgerProps {
   // Define your props here
@@ -401,7 +400,14 @@ export const Hamburger: React.FC<HamburgerProps> = ({ onClick }) => {
 };
 export const HamburgerWithoutBG: React.FC<HamburgerProps> = ({ onClick }) => {
   return (
-    <svg onClick={onClick} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36px" height="36px"><path d="M 3 5 A 1.0001 1.0001 0 1 0 3 7 L 21 7 A 1.0001 1.0001 0 1 0 21 5 L 3 5 z M 3 11 A 1.0001 1.0001 0 1 0 3 13 L 21 13 A 1.0001 1.0001 0 1 0 21 11 L 3 11 z M 3 17 A 1.0001 1.0001 0 1 0 3 19 L 21 19 A 1.0001 1.0001 0 1 0 21 17 L 3 17 z" /></svg>
+    <svg
+      onClick={onClick}
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      width="36px"
+      height="36px">
+      <path d="M 3 5 A 1.0001 1.0001 0 1 0 3 7 L 21 7 A 1.0001 1.0001 0 1 0 21 5 L 3 5 z M 3 11 A 1.0001 1.0001 0 1 0 3 13 L 21 13 A 1.0001 1.0001 0 1 0 21 11 L 3 11 z M 3 17 A 1.0001 1.0001 0 1 0 3 19 L 21 19 A 1.0001 1.0001 0 1 0 21 17 L 3 17 z" />
+    </svg>
   );
 };
 export const HamburgerDesktop: React.FC<HamburgerProps> = ({ onClick }) => {
@@ -538,12 +544,19 @@ export const BackArrow = () => {
 };
 export const ThumbsUPIcon: React.FC<ThumbsUPIconProp> = ({ color }) => {
   return (
-    <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M7.5 1.625V0.5H10.5V1.625C10.5 2.8125 10.2188 3.96875 9.6875 5H14.5H16V8H15.5V10.5H14.75V12.75H14V14.5H12.5H8.75H8.28125L7.90625 14.25L5.65625 12.75L5 12.3125V11.5V9.5V6.5V5.78125L5.5625 5.34375L5.78125 5.15625C6.875 4.28125 7.46875 3 7.46875 1.625H7.5ZM4 5.5V14.5H0V5.5H4Z" fill={color} />
+    <svg
+      width="16"
+      height="15"
+      viewBox="0 0 16 15"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg">
+      <path
+        d="M7.5 1.625V0.5H10.5V1.625C10.5 2.8125 10.2188 3.96875 9.6875 5H14.5H16V8H15.5V10.5H14.75V12.75H14V14.5H12.5H8.75H8.28125L7.90625 14.25L5.65625 12.75L5 12.3125V11.5V9.5V6.5V5.78125L5.5625 5.34375L5.78125 5.15625C6.875 4.28125 7.46875 3 7.46875 1.625H7.5ZM4 5.5V14.5H0V5.5H4Z"
+        fill={color}
+      />
     </svg>
   );
 };
-
 
 // export const cycleIcon = <svg width="20" height="17" viewBox="0 0 20 17" fill="none" xmlns="http://www.w3.org/2000/svg">
 // <path d="M12.5 3C11.9375 3 11.4688 2.71875 11.1875 2.25C10.9062 1.8125 10.9062 1.21875 11.1875 0.75C11.4688 0.3125 11.9375 0 12.5 0C13.0312 0 13.5 0.3125 13.7812 0.75C14.0625 1.21875 14.0625 1.8125 13.7812 2.25C13.5 2.71875 13.0312 3 12.5 3ZM13.3438 5H16V7H12.625L11.0938 5.78125L9.21875 7.28125L11 8.46875V14H9V9.5625L7.09375 8.34375C6.0625 7.6875 6 6.21875 6.96875 5.5L10.5 2.75L13.3438 5ZM1.75 12C1.75 12.8125 2.15625 13.5625 2.875 13.9688C3.5625 14.375 4.40625 14.375 5.125 13.9688C5.8125 13.5625 6.25 12.8125 6.25 12C6.25 11.2188 5.8125 10.4688 5.125 10.0625C4.40625 9.65625 3.5625 9.65625 2.875 10.0625C2.15625 10.4688 1.75 11.2188 1.75 12ZM8 12C8 13.4375 7.21875 14.75 6 15.4688C4.75 16.1875 3.21875 16.1875 2 15.4688C0.75 14.75 0 13.4375 0 12C0 10.5938 0.75 9.28125 2 8.5625C3.21875 7.84375 4.75 7.84375 6 8.5625C7.21875 9.28125 8 10.5938 8 12ZM13.75 12C13.75 12.8125 14.1562 13.5625 14.875 13.9688C15.5625 14.375 16.4062 14.375 17.125 13.9688C17.8125 13.5625 18.25 12.8125 18.25 12C18.25 11.2188 17.8125 10.4688 17.125 10.0625C16.4062 9.65625 15.5625 9.65625 14.875 10.0625C14.1562 10.4688 13.75 11.2188 13.75 12ZM20 12C20 13.4375 19.2188 14.75 18 15.4688C16.75 16.1875 15.2188 16.1875 14 15.4688C12.75 14.75 12 13.4375 12 12C12 10.5938 12.75 9.28125 14 8.5625C15.2188 7.84375 16.75 7.84375 18 8.5625C19.2188 9.28125 20 10.5938 20 12Z" fill="white"/>
