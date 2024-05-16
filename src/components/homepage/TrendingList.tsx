@@ -87,7 +87,7 @@ const TrendingList: React.FC<DashboardProps> = ({ modalClick, menuClick, listDat
                 onClick={() => menuClick(item?.listName, false, item?._id)}
               >
                 {/* <Image src={item?.image} alt="right icon" />  */}
-                <p style={{textAlign:"end"}}> {item?.image}</p>
+                <p style={{textAlign:"end"}}> <p> {item?.image}</p></p>
                 <p>{item?.listName}</p>
               </CommunityContainer>
             );

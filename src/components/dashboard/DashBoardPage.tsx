@@ -27,6 +27,7 @@ import { useMyContext } from "@/app/Context/MyContext";
 import Instance from "@/app/utils/Instance";
 import { icons } from "@/app/utils/iconList";
 import { ApiResponse } from "@/app/utils/types";
+import { iconsHome } from "@/app/utils/homeIcon";
 
 const LeaveFeedbackButton = styled.div`
   padding-left: 40px;
@@ -52,7 +53,7 @@ const DashBoard = () => {
       const response = await Instance.get("/category?limit=10")
       if (response.status === 200) {
         response.data.forEach((list: any) => {
-          const matchedIcon = icons.find(icon => icon.name === list.iconName);
+          const matchedIcon = iconsHome.find(icon => icon.name === list.iconName);
           if (matchedIcon) {
             list.image = matchedIcon.image;
           }

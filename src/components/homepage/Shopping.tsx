@@ -104,6 +104,7 @@ const Shopping: React.FC<DashboardProps> = ({ modalClick, menuClick }) => {
     setloader(true);
     try {
       const result = await Instance.get("/shopping-lists");
+      console.log("soppping", result)
       setData(result.data);
     } catch (error: any) {
       console.log(error.message);

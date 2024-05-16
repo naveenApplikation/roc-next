@@ -733,3 +733,87 @@ export const reservationTypes = [
   "night_club",
   "lodging",
 ];
+
+export const shoppingImages = [
+  {
+      "votes": 11,
+      "iconName": "apple",
+      "bgColor": "#EB5757",
+      "status": "Approved",
+      "categoryId": "663f71d5cc049eb2b028d9be",
+      "image":"",
+      "listName": "Garden Centres"
+  },
+  {
+      "votes": 4,
+      "iconName": "bowlFood",
+      "bgColor": "#F2994A",
+      "status": "Approved",
+      "categoryId": "663f71d6cc049eb2b028d9c8",
+      "image":"",
+      "listName": "Local shops"
+  },
+  {
+      "votes": 3,
+      "iconName": "home",
+      "bgColor": "#2F80ED",
+      "status": "Approved",
+      "categoryId": "663f71d6cc049eb2b028d9c5",
+      "image":"",
+      "listName": "Homeware"
+  },
+  {
+      "votes": 3,
+      "iconName": "man",
+      "bgColor": "#27AE60",
+      "status": "Approved",
+      "categoryId": "663f71d6cc049eb2b028d9cc",
+      "image":"",
+      "listName": "Mens clothing"
+  },
+  {
+      "votes": 2,
+      "iconName": "gift",
+      "bgColor": "#EB5757",
+      "status": "Approved",
+      "categoryId": "663f71d6cc049eb2b028d9d2",
+      "image":"",
+      "listName": "Gift ideas"
+  },
+  {
+      "votes": 2,
+      "iconName": "home",
+      "bgColor": "#F2C94C",
+      "status": "Approved",
+      "categoryId": "663f71d6cc049eb2b028d9c2",
+      "image":"",
+      "listName": "Furniture"
+  },
+  {
+      "votes": 0,
+      "iconName": "sportHelmat",
+      "bgColor": "#2F80ED",
+      "status": "Approved",
+      "categoryId": "663f71d6cc049eb2b028d9d8",
+      "image":"",
+      "listName": "Sunglasses"
+  },
+  {
+      "votes": 0,
+      "iconName": "rice,",
+      "bgColor": "#2F80ED",
+      "status": "Approved",
+      "categoryId": "663f71d6cc049eb2b028d9e4",
+      "image":"",
+      "listName": "Green Grocers"
+  },
+  {
+      "votes": 0,
+      "iconName": "TravelDress",
+      "bgColor": "#4F4F4F",
+      "status": "Approved",
+      "categoryId": "663f71d6cc049eb2b028d9cf",
+      "image":"",
+      "listName": "Ladies clothing"
+  }
+]
