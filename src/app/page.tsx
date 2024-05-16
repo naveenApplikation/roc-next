@@ -24,6 +24,7 @@ import Instance from "./utils/Instance";
 import { icons } from "./utils/iconList";
 import WalksModal from "@/components/AllModalScreen/WalksModal";
 import SearchModalScreen from "@/components/AllModalScreen/SearchModalScreen";
+import ReservationCalenderModal from "@/components/AllModalScreen/reservationCalenderModal";
 
 const Container = styled.div`
   display: flex;
@@ -172,12 +173,13 @@ export default function Home() {
         />
         <FilterModalScreen showMap={showMap} />
         <PlacesModalScreen showMap={showMap} />
-        <CalenderBookDatesModalScreen showMap={showMap} />
+        {/* <CalenderBookDatesModalScreen showMap={showMap} /> */}
         <PlaceOrderOnlineModalScreen showMap={showMap} />
         <EventListingModalScreen showMap={showMap} />
         <ActivitiesModalScreen showMap={showMap} />
         <DirectoryModalScreen showMap={showMap} />
         <ViewDirectionModalScreen showMap={showMap} />
+        <ReservationCalenderModal showMap={showMap}/>
         <WalksModal />
         
         <InfoAppScreen {...{ showMap }} />

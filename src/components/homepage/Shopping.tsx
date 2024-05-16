@@ -6,7 +6,7 @@ import styled from "styled-components";
 import Image from "next/image";
 import Instance from "@/app/utils/Instance";
 import ShopBrachSkeleton from "@/components/skeleton Loader/ShopBrachSkeleton";
-import {skeletonItems} from '@/app/utils/date'
+import { skeletonItems } from '@/app/utils/date'
 import Skeleton from "react-loading-skeleton";
 import "react-loading-skeleton/dist/skeleton.css";
 import fallback from '../../../assets/images/fallbackimage.png'
@@ -124,30 +124,30 @@ const Shopping: React.FC<DashboardProps> = ({ modalClick, menuClick }) => {
   const filteredUrls = filterUrls(ImageUrlData);
 
   return (
-  <>
-  <MenuDetails isOpen={() => menuClick("Shopping", true, "shopping-lists")} title="Shopping" />
-  <ScrollingMenu>
-  {loader
-      ? skeletonItems.map((item, index) => (
-          <div key={index}>
-            <Skeleton width={80} height={80} style={{borderRadius:6}} />
-          </div>
-        ))
-      :
-      data.length ? data.map((item: any, index: any) => {
-      return (
-        <CommunityContainer
-          key={index}
-          style={{ background: item?.bgColor, cursor:'pointer' }}
-          onClick={() => menuClick(item?.listName, false, item?.categoryId)}
-        >
-          <p>{item?.image}</p>
-          <p>{item?.listName}</p>
-        </CommunityContainer>
-      );
-    }) : ""}
-  </ScrollingMenu>
-</>
+    <>
+      <MenuDetails isOpen={() => menuClick("Shopping", true, "shopping-lists")} title="Shopping" />
+      <ScrollingMenu>
+        {loader
+          ? skeletonItems.map((item, index) => (
+            <div key={index}>
+              <Skeleton width={80} height={80} style={{ borderRadius: 6 }} />
+            </div>
+          ))
+          :
+          data.length ? data.map((item: any, index: any) => {
+            return (
+              <CommunityContainer
+                key={index}
+                style={{ background: item?.bgColor, cursor: 'pointer' }}
+                onClick={() => menuClick(item?.listName, false, item?.categoryId)}
+              >
+                <p>{item?.image}</p>
+                <p>{item?.listName}</p>
+              </CommunityContainer>
+            );
+          }) : ""}
+      </ScrollingMenu>
+    </>
   )
 };
 

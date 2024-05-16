@@ -158,6 +158,15 @@ import trinityImg from "../../../assets/images/Trinity.svg"
 import walkMaskImg from "../../../assets/images/walkMask.svg"
 import viewDirectionMapImg from "../../../assets/images/viewDirectionMap.svg"
 import CalendarPng from "../../../assets/images/calendarImg.png";
+import gardernCenterImage from "../../../assets/images/shoppingListIcon/garden_center.png"
+import furnitureImage from "../../../assets/images/shoppingListIcon/Furniture.png"
+import homewareImage from "../../../assets/images/shoppingListIcon/homeware.png"
+import localShopsImage from "../../../assets/images/shoppingListIcon/localShops.png"
+import mensClothingImage from "../../../assets/images/shoppingListIcon/mensClothing.png"
+import woomenClothingImage from "../../../assets/images/shoppingListIcon/woomenClothing.png"
+import greenGlocersImage from "../../../assets/images/shoppingListIcon/greenGlocers.png"
+import sunglassesSesImage from "../../../assets/images/shoppingListIcon/sunglassesSes.png"
+import giftIdeasImage from "../../../assets/images/shoppingListIcon/giftIdeas.png"
 
 export const NewLogoRoc = NewLogoRocImg;
 export const ROCLogoWhite = ROCLogoWhiteImg;
@@ -319,6 +328,15 @@ export const trinity = trinityImg;
 export const walkMask = walkMaskImg;
 export const viewDirectionMap = viewDirectionMapImg;
 export const calendarImg = CalendarPng;
+export const gardernCenter =  gardernCenterImage
+export const furniture =  furnitureImage
+export const homeware =  homewareImage
+export const localShops =  localShopsImage
+export const mensClothing =  mensClothingImage
+export const woomenClothing =  woomenClothingImage
+export const greenGlocers =  greenGlocersImage
+export const sunglassesSes =  sunglassesSesImage
+export const giftIdeas =  giftIdeasImage
 
 // import archirondelImg from "../../../assets/images/Archirondel.svg"
 // import goreyImg from "../../../assets/images/Gorey.svg"

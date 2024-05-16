@@ -70,7 +70,8 @@ const MapSection = styled.div<{
 
 const SearchFilterSection = styled.div`
   position: absolute;
-  bottom: 230px;
+  min-height:300px;
+  bottom: 410px;
   width: 100%;
   overflow: auto;
   display: none;
@@ -190,6 +191,7 @@ const HeaderContainer = styled.div`
   }
 `;
 const MapBetaBody = styled.div`
+height:400px;
     p{
       font-size:16px;
       margin-bottom:10px;
@@ -202,7 +204,6 @@ const MapBetaBody = styled.div`
       font-size:16px;
     }
     .map_common_btn{
-      padding:10px ;
       p{
         margin-bottom:0px;
       }

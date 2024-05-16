@@ -79,7 +79,7 @@ const ReservationCalenderModal: React.FC<DashboardSearchContainerProps> = ({ sho
             <CommonButton text="Next" />
           </div> */}
           <div style={{width:"100%" , padding:"10px 40px"} }>
-                <Image src={calendarImg} style={{width:"100%"}} alt="calender" />
+                <Image src={calendarImg} style={{objectFit:"contain"}} alt="calender" />
           </div>
             </CalenderModalLayout>
         </>
