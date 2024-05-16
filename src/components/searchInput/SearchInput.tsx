@@ -26,10 +26,12 @@ const SearchComponent: React.FC<SearchComponentProps> = ({
 
   useEffect(() => {
     console.log("Attempting to focus:", modalType.search, inputRef.current);
-    if (modalType.search && inputRef.current) {
-      inputRef.current.focus();
-      console.log("Focus method called");
-    }
+
+    setTimeout(() => {
+      if (modalType.search && inputRef.current) {
+        inputRef.current.focus();
+      }
+    }, 2000);
   }, [modalType.search]);
 
   return (
